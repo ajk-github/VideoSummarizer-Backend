@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     whisper_model: str = "base"
     download_dir: str = "downloads"
     audio_format: str = "mp3"
+    google_credentials_b64: str
 
     class Config:
         env_file = ".env"
