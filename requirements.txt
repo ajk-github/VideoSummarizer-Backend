@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+yt_dlp
+openai-whisper
+google-genai
+pydantic-settings
+firebase-admin
+pyrebase4
