@@ -60,3 +60,6 @@ test_dir/
 
 #PyTest coverage
 .coverage
+
+#firebase-credentials
+ServiceAccountkey.json
