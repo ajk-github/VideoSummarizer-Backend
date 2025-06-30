@@ -14,8 +14,10 @@ def summarize(transcript: str) -> str:
     "\n\nGenerate concise bullet-point summaries for each section. "
     "Each bullet must start on a new line, and must follow this exact format:\n"
     "- **[MM:SS]** summary content\n\n"
-    "Do not include any other symbols, styles, or formatting. Only use this bullet format: - **[MM:SS]** summary."
+    "You must include the square brackets exactly as shown. Do not use **00:00**. "
+    "Only use this bullet format: - **[MM:SS]** summary."
 )
+
 
 
     resp = _client.models.generate_content(
